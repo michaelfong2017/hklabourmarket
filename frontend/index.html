@@ -578,7 +578,10 @@
 
 
                 <p class="bottom-one"></p>
-                <p>Interpret your result here.</p>
+                <p>Seeing vacancies next to graduates in one chart allows one to visualize the supply and demand of the job market. In 2018:</p>
+                <li>Top 3 occupations with highest vacancies: service and sales, associate professionals, then elementary occupations.</li>
+                <li>Bottom 3 occupations with lowest vacancies: plant and machine operators and assemblers, craft and related workers, and managers and administrators.</li>
+                <li>Analysis for potential job application pool can be done by selecting mode of study, level of study, and university and seeing how the graduates numbers change.</li>
                 <p class="bottom-one"></p>
 
 
@@ -597,7 +600,11 @@
 
 
                 <p class="bottom-one"></p>
-                <p>Interpret your result here.</p>
+                <p>This barchart can be used to answer how equally distributed are the two genders across industries. Observations:</p>
+                <li>Top 3 industries with the highest average percentage of male: public sector civil engineering sites, private sector civil engineering sites, public sector sites.</li>
+                <li>Bottom 3 industries with the lowest average percentage of male: residential care services, human health and social work services, social work services.</li>
+                <li>Most evenly distributed industries in terms of gender: Services auxiliary to financial and insurance services, manufacture of textiles, sports and other entertainment services.</li>
+
                 <p class="bottom-one"></p>
 
                 <!-- Vacancies by industry -->
@@ -614,7 +621,15 @@
 
 
                 <p class="bottom-one"></p>
-                <p>Interpret your result here.</p>
+                <p>When evaluating industries and occupations, vacancies are important as well as employment. Observations:
+                </p>
+
+                <li>
+                    In 2019, top 3 industries are: social and professional services, trading, and education.
+                </li>
+                <li>
+                    Top industries do not fluctuate much over the years, from 2013 to 2019.
+                </li>
 
 
                 <p class="bottom-one"></p>
@@ -626,14 +641,30 @@
                 <h3 class="mb-4">Employment earnings</h3>
                 <hr>
 
-                <!-- Wage by Gender -->
+                <!-- Wage 1 -->
 
-                <div class='tableauPlaceholder' id='viz1605456906397' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;WagebyGender&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HoursofWork&#47;WagebyGender' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;WagebyGender&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>
+                <div class='tableauPlaceholder' id='viz1605599803378' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;Wage1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HoursofWork&#47;Wage1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;Wage1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>
                 <script type='text/javascript'>
-                    var divElement = document.getElementById('viz1605456906397');
+                    var divElement = document.getElementById('viz1605599803378');
                     var vizElement = divElement.getElementsByTagName('object')[0];
-                    vizElement.style.width = '100%';
-                    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                    if (divElement.offsetWidth > 800) {
+                        vizElement.style.minWidth = '420px';
+                        vizElement.style.maxWidth = '650px';
+                        vizElement.style.width = '100%';
+                        vizElement.style.minHeight = '587px';
+                        vizElement.style.maxHeight = '887px';
+                        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                    } else if (divElement.offsetWidth > 500) {
+                        vizElement.style.minWidth = '420px';
+                        vizElement.style.maxWidth = '650px';
+                        vizElement.style.width = '100%';
+                        vizElement.style.minHeight = '587px';
+                        vizElement.style.maxHeight = '887px';
+                        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                    } else {
+                        vizElement.style.width = '100%';
+                        vizElement.style.height = '1027px';
+                    }
                     var scriptElement = document.createElement('script');
                     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                     vizElement.parentNode.insertBefore(scriptElement, vizElement);
@@ -641,57 +672,33 @@
 
 
                 <p class="bottom-one"></p>
-                <p>Interpret your result here.</p>
-                <p class="bottom-one"></p>
+                <hr>>
 
 
+                <!-- Wage 2 -->
 
-                <!-- Wage by Education -->
-
-                <div class='tableauPlaceholder' id='viz1605456925268' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;WagebyEducation&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HoursofWork&#47;WagebyEducation' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;WagebyEducation&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>
+                <div class='tableauPlaceholder' id='viz1605599859588' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;Wage2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HoursofWork&#47;Wage2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;Wage2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>
                 <script type='text/javascript'>
-                    var divElement = document.getElementById('viz1605456925268');
+                    var divElement = document.getElementById('viz1605599859588');
                     var vizElement = divElement.getElementsByTagName('object')[0];
-                    vizElement.style.width = '100%';
-                    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                    var scriptElement = document.createElement('script');
-                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-                </script>
-
-                <p class="bottom-one"></p>
-                <p>Interpret your result here.</p>
-                <p class="bottom-one"></p>
-
-
-
-                <!-- Wage by Age Group -->
-
-                <div class='tableauPlaceholder' id='viz1605456955311' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;WagebyAgeGroup&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HoursofWork&#47;WagebyAgeGroup' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;WagebyAgeGroup&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>
-                <script type='text/javascript'>
-                    var divElement = document.getElementById('viz1605456955311');
-                    var vizElement = divElement.getElementsByTagName('object')[0];
-                    vizElement.style.width = '100%';
-                    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                    var scriptElement = document.createElement('script');
-                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-                </script>
-
-
-                <p class="bottom-one"></p>
-                <p>Interpret your result here.</p>
-                <p class="bottom-one"></p>
-
-
-                <!-- Wage by Occupation -->
-
-                <div class='tableauPlaceholder' id='viz1605456985300' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;WagebyOccupation&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HoursofWork&#47;WagebyOccupation' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;WagebyOccupation&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>
-                <script type='text/javascript'>
-                    var divElement = document.getElementById('viz1605456985300');
-                    var vizElement = divElement.getElementsByTagName('object')[0];
-                    vizElement.style.width = '100%';
-                    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                    if (divElement.offsetWidth > 800) {
+                        vizElement.style.minWidth = '420px';
+                        vizElement.style.maxWidth = '650px';
+                        vizElement.style.width = '100%';
+                        vizElement.style.minHeight = '587px';
+                        vizElement.style.maxHeight = '887px';
+                        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                    } else if (divElement.offsetWidth > 500) {
+                        vizElement.style.minWidth = '420px';
+                        vizElement.style.maxWidth = '650px';
+                        vizElement.style.width = '100%';
+                        vizElement.style.minHeight = '587px';
+                        vizElement.style.maxHeight = '887px';
+                        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                    } else {
+                        vizElement.style.width = '100%';
+                        vizElement.style.height = '827px';
+                    }
                     var scriptElement = document.createElement('script');
                     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
                     vizElement.parentNode.insertBefore(scriptElement, vizElement);
@@ -699,27 +706,17 @@
 
 
                 <p class="bottom-one"></p>
-                <p>Interpret your result here.</p>
-                <p class="bottom-one"></p>
-
-
-
-                <!-- Wage by Industry -->
-
-                <div class='tableauPlaceholder' id='viz1605457014849' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;WagebyIndustry&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HoursofWork&#47;WagebyIndustry' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HoursofWork&#47;WagebyIndustry&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>
-                <script type='text/javascript'>
-                    var divElement = document.getElementById('viz1605457014849');
-                    var vizElement = divElement.getElementsByTagName('object')[0];
-                    vizElement.style.width = '100%';
-                    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-                    var scriptElement = document.createElement('script');
-                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-                </script>
-
-
-                <p class="bottom-one"></p>
-                <p>Interpret your result here.</p>
+                <p>5 charts to provide insight into wage by demographics over the years. Observations:</p>
+                <li>Top 3 wages by industries: education and public administration, financing and insurance, and electricity and gas supplies.</li>
+                <li>Bottom wages by industries: estate management, security and cleaning services, miscellaneous activities and restaurants.</li>
+                <li>All industries have growing wages from 2011 to 2019.</li>
+                <li>Top wage by occupation: managers and professionals (HK$28,100 in 2019).</li>
+                <li>Bottom wage by occupations: elementary occupations (HK$12,900 in 2019).</li>
+                <li>Wage by gender reveals that male average wage is consistently higher than female, with over 30% difference in 2019.</li>
+                <li>Wage by age group shows that 35-44 group have the highest wage, followed by 25-34, then 45-54 group. This is aligned with the expectation that wages are highest with over 10 years of work experience and decreases after over 20 years of
+                    work.
+                </li>
+                <li>Wage by educational attainment shows tertiary education group has a much higher wage than the next group, secondary 4 to 7 (63.52% higher in 2019). Difference between the rest of the 3 groups are more evenly distributed.</li>
                 <p class="bottom-one"></p>
 
                 <hr>
@@ -744,7 +741,11 @@
 
 
                 <p class="bottom-one"></p>
-                <p>Interpret your result here.</p>
+                <p>Color-coded data to easily spot trends and changes over the years across different industries. Observations:</p>
+                <li>Top number of hours of work industry: accommodation and food services, longest working hours consistently between 2008 and 2019 (48-54 hours per week).</li>
+                <li>Lowest number of hours work industry: trade and wholesale have the shortest working hours (40-44 hours).</li>
+                <li>Common trend of working hours reducing in recent years across most industries.</li>
+                <li>Males have longer working hours in general. However, female’s working hours have less reductions over the years compared to male’s.</li>
 
 
                 <p class="bottom-one"></p>
@@ -952,8 +953,7 @@
                             "管理個人時間及編排個人工作",
                             "客戶服務技巧",
                             "其他特定工作技能",
-                            "沒有接受培訓",
-                            "曾接受培訓",
+                            "總培訓出席人數",
                             "所有僱員"
                         ]
                         // create a list of keys
@@ -966,8 +966,7 @@
                         "Time management and work organisation",
                         "Customer service skills",
                         "Other job-specific skills",
-                        "No training attended",
-                        "Training attended",
+                        "Total number of training attendance",
                         "All employees"
                     ]
 
@@ -1023,8 +1022,8 @@
                         })
                         // .on("mouseover", (d) => console.log(d[1].reduce((a, b) => a + b).toFixed(1)));
                         .on("mouseover", (d) => tooltip.style("visibility", "visible").text(d.data.type != null ? keys_en[d.data.type] + "\n" + d.value.toFixed(1) + "k" :
-                            d.data.training == "Yes" ? "Training attended" + "\n" + d.value.toFixed(1) + "k" :
-                            d.data.training == "No" ? "No training attended" + "\n" + d.value.toFixed(1) + "k" :
+                            d.data.training == "Yes" ? "Total number of training attendance" + "\n" + d.value.toFixed(1) + "k" :
+                            d.data.training == "No" ? "Number of all employees minus total number of training attendance" + "\n" + d.value.toFixed(1) + "k" :
                             "All employees" + "\n" + d.value.toFixed(1) + "k"))
                         .on("mousemove", function() {
                             return tooltip.style("top",
@@ -1108,13 +1107,13 @@
                         .attr("y", 25)
                         .attr("font-size", "22px")
                         .style('fill', '#808080')
-                        .text("Top 5 cited training courses attended by employed persons for each")
+                        .text("Top 5 cited training courses arranged by employers attended by employed")
                     svg.append("text")
-                        .attr("x", 88)
+                        .attr("x", 33)
                         .attr("y", 50)
                         .attr("font-size", "22px")
                         .style('fill', '#808080')
-                        .text("occupation during the 12 months before enumeration")
+                        .text("persons for each occupation during the 12 months before enumeration")
 
 
                     /* Data source */
@@ -1123,18 +1122,17 @@
                         .attr("y", 950)
                         .attr("font-size", "16px")
                         .style('fill', '#808080')
-                        .text("Data source: Census and Statistics Department, Hong Kong Government, 2018 Q1")
+                        .text("Data source: Census and Statistics Department, Hong Kong Government, 2018")
 
 
                     /* Legend */
                     var legend = svg.append("g");
                     legend
-                        .attr("transform", "translate(630,-30)");
+                        .attr("transform", "translate(630,-15)");
 
                     var legend_a = legend.append("g");
 
 
-                    color.push("grey");
                     color.push("lightgreen");
                     color.push("lightblue");
 
@@ -1198,7 +1196,14 @@
 
 
                 <p class="bottom-one"></p>
-                <p>Interpret your result here.</p>
+                <p>The bubbles are in different colours, corresponding to employed persons with different training experiences. There are some key observations:</p>
+                <li>Training about knowledge of products and services offered is the most attended training since it is cited in all 5 occupations and it has the largest coverage among all types of trainings.</li>
+                <li>The proportion of total number of training attendance to the number of all employed persons of elementary occupations is obviously smaller than that of other occupations. This proportion is only 6.59% while other 4 proportions range from
+                    17.2% to 24.3%.</li>
+                <li>As total number of training attendance is less than one-fourth of number of all employed persons, most of the employed persons do not have training needs since their employers have not arranged any trainings for them.</li>
+                <li>Actual training resources needed for different occupations can be obtained by investigating the sizes of light green bubbles. For example, managers and administrators, professionals and associate professionals have the most training needs.</li>
+                <li>Occupation-specific trainings which may not be important in general can be highlighted easily. For instance, dark red bubble, which is leadership and teamwork, is particularly important for managers and administrators, professionals and
+                    associate professionals whereas green bubble, which is customer service skills, is particularly important for service and sales workers.</li>
 
 
                 <p class="bottom-one"></p>
@@ -1209,6 +1214,20 @@
             <div id="discussion">
                 <h3 class="mb-4">Discussion</h3>
 
+                <p>For the concerns and questions that are raised before, personalized answers can be derived using the visualizations. One would look at the industry of interest based on his/her education, skills and career preferences.</p>
+                <p>A healthy and efficient labor market is crucial to the economy of any city. Having insight into issues in the labor market, making the right decisions on employment policies, matching labor supply to market demands and helping enterprises
+                    and workers to adapt to technological and societal changes by picking up the right skills are incredibly important to the well-being of citizens living in the city.</p>
+                <p>Building visualizations using data from the Census and Statistics Department of Hong Kong Government, the following crucial questions can be answered with certain confidence, based on the support of the data and the insight gained through
+                    interpreting the data:</p>
+                <li>What industries should a fresh graduate choose to enter?</li>
+                <li>What program of study should a new student select?</li>
+                <li>Which industries and occupations should educational institutes direct more teaching and recruiting resources to?</li>
+                <li>What policies and assistances should governments provide to businesses and workers?</li>
+                <li>What demographic groups should government direct resources to support?</li>
+                <li>What type of trainings should the promoted by the government and businesses?</li>
+                <p></p>
+
+                <p>Visualizations of employment and educational data are powerful tools for providing insight to contribute to the well-being of not only the labor market, but also the society as a whole.</p>
 
                 <p class="bottom-one"></p>
                 <hr>
